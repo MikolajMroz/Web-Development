@@ -1,0 +1,129 @@
+
+body {
+    background-color:#000000;
+    color: white;
+    font-family: Verdana, Sans-serif; /*choose font for body*/
+    
+}
+
+#navbar {
+    list-style-type: none; /*removes bullet-points*/
+    background-color: rgb(10, 10, 10);
+    display: flex; /*display flex and justify-content center the navbar contents and space them evenly*/
+    justify-content: space-evenly;
+    padding-left: 20%; /* move elements closer to the center of the navbar*/
+    padding-right: 20%;
+    margin-top: 0%;
+    margin-left: 0%; /*ensures items appear as far to the left as they can on the page*/
+    border-bottom: solid; /*adds stylish border, but just on the bottom of the navbar to help seperate it from the page contents*/
+    border-color:  rgb(116, 11, 11);
+  }
+  
+  li {
+    float: center;
+
+  }
+  
+  li a {
+      font-family:Georgia, serif;
+      font-size: medium;
+      display: block; /*adds chunkiness to navbar*/
+      color: white;
+      padding: 15px;
+
+  }
+  
+  li a:hover {
+      color: white;
+      background-color:  rgb(116, 11, 11); 
+      text-shadow: 1px 0 0 rgb(0, 0, 0); /*mimics bold effect without shifting position of items*/
+      text-decoration: none; /*removes underline*/
+  }
+
+  .center{
+    text-align: center;
+    align-items: center;
+  }
+  
+  a{
+    color: rgb(146, 13, 13); 
+  }
+  h1{
+    font-family:Georgia, serif;
+  }
+  h2{
+    font-family:Georgia, serif;
+  }
+  h3{
+    font-family:Georgia, serif;
+  }
+  #logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  #infopics{
+    border-style: solid;
+    border-color: rgb(116, 11, 11);
+    border-width: 5px;
+  }
+  #homelogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+  .album{
+    width:300px; 
+    height:300px; 
+  }
+  .col-sm-4{
+    text-align: center;
+    align-items: center;
+  }
+  i{
+    color: rgb(136, 136, 136); 
+  }
+  #login{
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    
+  }
+  input[type=submit]{
+  color:rgb(255, 255, 255) ;
+  background-color:rgb(116, 11, 11) ;
+  text-decoration: none;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(77, 7, 7);
+  }
+
+input[type=text]{
+  color: #000000;
+}
+input[type=password]{
+  color: #000000;
+}
+input{
+  float: right;
+}
+button{
+  background-color: rgb(77, 7, 7);
+}
+.output{
+  position: fixed;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%,-50%);
+  font-size: 18px;
+}
+
+  

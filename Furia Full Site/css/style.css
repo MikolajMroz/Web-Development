@@ -1,0 +1,102 @@
+
+#overlay{
+  position: fixed; /*Overlayed on top of page*/
+  width: 100%; /*Covers entire screen*/
+  height: 100%; 
+  background-color: rgba(0, 0, 0);
+  cursor: pointer; /* Gives the user a visual cue to click */ 
+  opacity: 1; /*Opaque, to obscure everything behind it */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#overlaylogo {
+    position: fixed; /*logo always sits in middle, even if scrolled*/
+    top: 50%; /*logo sits in middle of overlay*/
+    left: 50%; 
+    transform: translate(-50%,-50%); /*transform logo to always sit in middle of screen*/
+    cursor: pointer; /* Gives the user a visual cue to click */ 
+}
+
+body {
+    background-color:#000000;
+    color: white;
+    font-family: "verdana"; /*choose font for body*/
+    
+}
+
+#navbar {
+    list-style-type: none; /*removes bullet-points*/
+    background-color: rgb(30, 30, 30);
+    display: flex; /*display flex and justify-content center the navbar contents and space them evenly*/
+    justify-content: space-evenly;
+    padding-left: 20%; /* move elements closer to the center of the navbar*/
+    padding-right: 20%;
+    margin-top: 0%;
+    margin-left: 0%; /*ensures items appear as far to the left as they can on the page*/
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+      font-family:"Gill Sans", sans-serif;
+      display: block; /*adds chunkiness to navbar*/
+      color: white;
+      padding: 20px;
+  }
+  
+  li a:hover {
+      color: white;
+      background-color: rgb(43, 95, 141); 
+      text-shadow: 1px 0 0 white; /*mimics bold effect without shifting position of items*/
+  }
+
+  
+  #toplogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+ .bottompicrect{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px; 
+    height:220px; 
+  }
+  .picsquare{
+    width:200px; 
+    height:200px; 
+  }
+
+  .bottompicsquare{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px; 
+    height:200px; 
+  }
+  .center{
+    text-align: center;
+    align-items: center;
+  }
+  #scrolltop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 4px;
+    color:black;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-size:40px;
+  }

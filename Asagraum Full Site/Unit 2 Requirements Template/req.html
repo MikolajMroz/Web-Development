@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Requirements page</title>
+	<link rel="stylesheet" href="reqStyle.css">
+</head>
+<body>
+
+<h1>CMP204 Requirements Page - Unit 2 Assessment</h1>
+
+<p>If you have not met a requirement, do not delete it from the table.</p>
+
+<table>
+  <tr>
+    <th class="reqCol">Requirement</th>
+    <th class="metCol">How did you meet this requirement?</th>
+    <th class="fileCol">File name(s), line no.</th>
+  </tr>
+  <tr>
+    <td>A clear use of HTML5</td>
+    <td>By implementing the HTML5 template given at the start of the year to the top of each page, ensuring the website uses HTML5.</td>
+    <td>Each file, For example home.php line 10 </td>
+  </tr>
+  <tr>
+    <td>Use of the Bootstrap framework providing a responsive layout </td>
+    <td>I implemented the bootstrap framework to provide a responsive, modular layout to pages with lots of information on them that would need to scale well for all devices.</td>
+    <td>info.php line 32, defined on line 17 | discography.php line 34, defined on line 17</td>
+  </tr>
+  <tr>
+    <td>Use of AJAX (pure JavaScript i.e. without the use of a library)</td>
+    <td>AJAX was used to provide the user with review quotes for each album at the press of a button by reading in the information stored on a text file on the server.</td>
+    <td>discography.php line 44 / script.js line 6</td>
+  </tr>
+  <tr>
+    <td>Use of the jQuery AJAX function</td>
+    <td>like the previous use of ajax, this also brings in reviews for the discography page at the press of a button but by making use of JQUERY AJAX instead.</td>
+    <td>discography.php line 61 / script.js line 20</td>
+  </tr>
+  <tr>
+    <td>User login functionality (PHP/MySQL)</td>
+    <td>The user can log in using the form on index.php if they have an account.</td>
+    <td>index.php line 23-32, sent to home.php line 39-41</td>
+  </tr>
+  <tr>
+    <td>Ability to select, add, edit and delete information from a database (PHP/MySQL)</td>
+    <td>SELECT: used to find username in database when user logs in | ADD: used when user creates an account | EDIT: used for updating the user password DELETE: used to remove user data from database.</td>
+    <td>SELECT: home.php line 43 | ADD: createaccountconfirm.php line 33 | EDIT: changepassconfirm.php line 15 |DELETE: deleteaccountconfirm.php line 34 </td>
+  </tr>
+  <tr>
+    <td>Appropriate consideration of relevant laws</td>
+    <td>By informing the user of exactly what happens with their data, as well as including links to the sites cookie policy, GDPR page, and cookie law information, I have taken relevant laws into consideration to ensure maximum safety for the users information. </td>
+    <td>cookie.php, line 25-37 as well as a link to the cookie.php page at the bottom of every page in the footer.</td>
+  </tr>
+  <tr>
+    <td>SQL queries should be written as prepared statements</td>
+    <td>SQL queries were written using the prepared statement method, using ? to substitute variables into queries.</td>
+    <td>home.php line 43-49, as well as all other pages aforementioned which make the use of queries (createaccountconfirm, deleteaccountconfirm, changepasswordconfirm)</td>
+  </tr>
+  <tr>
+    <td>Passwords should be salted and hashed</td>
+    <td>Passwords are salted, hashed, and verified during logon and account creation</td>
+    <td>home.php lines 41 and 56 | createaccountconfirm.php line 31</td>
+  </tr>
+  <tr>
+    <td>Validation of user input</td>
+    <td>User input is validated to ensure they are allowed to log on</td>
+    <td>home.php line 56-60</td>
+  </tr>
+</table>
+		
+</body>
+</html>
+
+
+

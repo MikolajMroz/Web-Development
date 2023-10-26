@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">                                                                                    <!--define language (english)-->
+<head>
+	<meta charset="utf-8">                                                                          <!--define character set-->
+    <title>Furia - Unofficial Website</title>                                                       <!--set title of the site, displayed on the browser tab-->
+    <link rel="icon" href="pictures/icon.png">                                                      <!-- import custom moon icon :) -->
+    <meta name="description" content="Furia - Unofficial Website">                                  <!--set desciption-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">                            <!--define HTML5 viewport to change the website's size with the size of the window-->
+
+    <!--identify stylesheet and javascript files, and import bootstrap + jquery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+
+<body>
+
+    <ul id=navbar> <!--structure navbar-->
+        <li><a href="index_no_overlay.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="discography.html">DISCOGRAPHY</a></li>
+        <li><a href="links.html">LINKS</a></li>
+        <li ><a id = date></id></a></li> <!--display current date on navbar-->
+    </ul>
+
+    <img src="pictures/homelogo.jpg" alt="Furia" id=toplogo> <!--https://www.metal-archives.com/bands/Furia/23765, any pictures with no links were taken by me-->
+
+    <div class="container"> <!--create container for bootstrap grid-->
+        <div class="row"> <!--create row-->
+          <div class="col-sm-8"> <!--fill 8 out of 12 spaces-->
+            <h3>ABOUT</h3>
+            <p>Lorem ipsum dolor sit amet, Donec aliquam in lorem nec ultricies. Quisque maximus massa feugiat auctor molestie. Donec tempor eu ex a vestibulum. Ut non tortor vel mauris interdum efficitur et eu nunc. Proin varius maximus neque, luctus ultrices mi hendrerit in. Fusce molestie consectetur turpis, et pretium lectus aliquet nec. Proin augue sapien, mollis sit amet velit quis, luctus aliquet felis. Integer neque justo, finibus sed nibh vel, volutpat tincidunt nulla. Vivamus imperdiet dui libero, id congue massa iaculis ultrices. Aenean at nisl in est sollicitudin aliquet id et tellus. Nulla facilisi. Morbi sit amet dignissim diam. Consectetur adipiscing elit. Pellentesque eros erat, gravida ac consectetur id, auctor ac risus. Sed purus purus, faucibus in porta eu, feugiat vel nibh. Suspendisse ipsum elit, rhoncus quis vulputate sed, iaculis ut lorem. Suspendisse aliquam dignissim vehicula. Nunc sollicitudin condimentum consectetur. Pellentesque imperdiet semper sem, et feugiat odio dictum in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam sed faucibus erat. Sed luctus tortor eu massa vulputate, non pharetra lacus sodales. Maecenas faucibus mi ut nisl volutpat, id faucibus erat ultricies. Morbi id vehicula ante, id ornare nisl.</p>
+          </div>
+
+          <div class="col-sm-4"> <!--picture takes up final 4 spaces in grid-->
+            <img src="pictures/photo4.jpg" alt="Furia" width="400px" height="400px"> <!--taken by me-->
+          </div>
+
+            <h3>TOUR DATES</h3>
+            <ul> 
+                <br>
+                <p><u><b>UK TOUR 2020</b></u></p>
+                <p>> 28/02/2020 - UK, Leeds, (Temple of Boom) with Ante-Inferno </p>
+                <p>> 29/02/2020 - UK, (London Chaos Theory Festival) with Zu, Teeth of the Sea, Gold, Ante-Inferno & more </p>
+                <p>> 01/03/2020 - UK, (Audio Glasgow) with Ante-Inferno </p>
+                <br>
+            </ul>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="pictures/photo2.jpg" alt="Furia" class=bottompicrect> <!--taken by me-->
+                </div>
+                <div class="col-sm-4">
+                    <img src="pictures/photo1.png" alt="Furia" class=bottompicsquare> <!--https://www.echoesanddust.com/2018/06/furia-silesian-folklore-from-the-mines-to-the-moon/-->
+                </div>
+                <div class="col-sm-4">
+                    <img src="pictures/photo3.jpg" alt="Furia" class=bottompicrect> <!--taken by me-->
+                </div>
+                <br>
+            </div>
+        </div>
+      </div>
+      
+    <footer>
+        <div class="center"> <!--center cookie policy page link-->
+            <a href="cookie.html">Cookie Policy</a>
+    </footer>
+    <a id="scrolltop" href="#">🡅</a>
+    <br>
+</body>
+</html>

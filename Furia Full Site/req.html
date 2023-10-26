@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Requirements page</title>
+	<link rel="stylesheet" href="reqStyle.css">
+</head>
+<body>
+
+<h1>CMP204 Requirements Page - Unit 1 Assessment</h1>
+
+<p>If you have not met a requirement, do not delete it from the table.</p>
+
+<table>
+  <tr>
+    <th class="reqCol">Requirement</th>
+    <th class="metCol">How did you meet this requirement?</th>
+    <th class="fileCol">File name(s), line no.</th>
+  </tr>
+
+  <tr>
+    <td>HTML, CSS, JavaScript has been contained within separate files</td>
+    <td>by making seperate css, javascript, and html files. CSS and JS files were put into seperate folders for tidiness.</td>
+    <td>index.html lines 13 and 16</td>
+  </tr>
+
+  <tr>
+    <td>A clear use of HTML5</td>
+    <td>in the head of each file, i followed the structure of a HTML5 template, utilizing metadata and device width.</td>
+    <td>index.html lines 1-8 as example, used throughout</td>
+  </tr>
+  <tr>
+    <td>Use of the Bootstrap framework providing a responsive layout </td>
+    <td>I aligned most text on the pages to a bootstrap grid to make the website just as responsive on mobile, namely the discography page.</td>
+    <td>discography.html lines 35-104, used throughout </td>
+  </tr>
+  <tr>
+    <td>Use of JavaScript to manipulate the DOM based on an event</td>
+    <td>By using an event-listener + getelementbyid, I am able to cause the initial overlay that appears on index.html to fade out with a click.</td>
+    <td>script.js lines 13 and 14</td>
+  </tr>
+  <tr>
+    <td>JavaScript loading of dynamically changing information</td>
+    <td>The date which appears on the navbar fetches the device's current date at time of loading, being updated once the browser has been refreshed or re-opened on a new day. (tested by manually changing the device date and refreshing)</td>
+    <td>script.js line 5, called throghout</td>
+  </tr>
+  <tr>
+    <td>Use of jQuery in conjunction with the DOM</td>
+    <td>Clicking the overlay causes it to execute a line of JQuery which finds the overlay on the page and causes it to fade.</td>
+    <td>script.js line 15 & scrollscript.js lines 1-4</td>
+  </tr>
+  <tr>
+    <td>Use of a jQuery plugin to enhance your application</td>
+    <td>I implemented a "scroll to top" button plugin (scrolltop.js) https://www.cssscript.com/high-performance-scroll-top-plugin-scrolltop-js/</td>
+    <td>scrollscript.js lines 1-4, called at index.html line 76 and used throughout site.</td>
+  </tr>
+  <tr>
+    <td>Appropriate consideration of relevant laws</td>
+    <td>Implementing a popup which users must accept to enter, as well as a seperate cookie policy page linked in the footer of each page</td>
+    <td>script.js line 19 for popup, cookie.html lines 31-43 for cookie page contents. Used throughout site.</td>
+  </tr>
+</table>
+		
+</body>
+</html>
+
+
+
